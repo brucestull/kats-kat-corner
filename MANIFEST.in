@@ -1,0 +1,3 @@
+include kitten_corner/*.py
+recursive-exclude kitten_corner/migrations *.py
+recursive-exclude tests *.py
