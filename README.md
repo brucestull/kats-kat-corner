@@ -1,3 +1,3 @@
-# Kitten Corner - Package
-Django application package to import and use in 'kats' project.
-# kat-corner
+# Kat Corner - Package
+
+Django application package to import and use in [Kats](https://github.com/brucestull/kats) project.
