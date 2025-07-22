@@ -1,3 +1,11 @@
-include kitten_corner/*.py
-recursive-exclude kitten_corner/migrations *.py
+# Include the README and license files
+include README.md
+include LICENSE
+
+# Include all static files and templates
+recursive-include kat_corner/static *
+recursive-include kat_corner/templates *
+
+# Exclude all migrations and test files
+recursive-exclude kat_corner/migrations *.py
 recursive-exclude tests *.py
